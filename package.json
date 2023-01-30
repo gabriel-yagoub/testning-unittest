@@ -11,7 +11,7 @@
   },
   "jest":{
     "preset": "ts-jest",
-    "testEnviroment": "node",
+    "testEnvironment": "node",
     "collectCoverage": true,
     "coverageReporters": ["html"]
   }
