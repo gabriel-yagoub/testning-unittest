@@ -1,20 +1,14 @@
-
+/**
+*@jest-environment jsdom
+*/
 
 import { addTodo, changeTodo, removeAllTodos } from "../ts/functions";
 import { Todo } from "../ts/models/Todo";
 
-// För att använda nedan måsten jag installera jsdom med npm install jsdom --save-dev
-// och lägga in följande i package.json: "jest": { "testEnvironment": "jsdom" }
-
-/*
 beforeEach (()  => {
     document.body.innerHTML = " ";
      
 });
-*/
-
-
-
 
 //*** Testar om funktionen addTodo lägger till en todo när villkoret är uppfyllt ***//
 
