@@ -44,7 +44,7 @@ test("Should not add a todo", () => {
 
 //*** Testar om funktionen changeTodo ändrar status på en todo ***//
 
-test("Should change status on a todo", () => {
+test("Should change status of todo", () => {
     //Arrange
     let todo = new Todo ("todoTask", true) // Skapar en ny todo med texten "todoTask" och status true
 
